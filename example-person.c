@@ -18,6 +18,11 @@ static void example_person_init (ExamplePerson * self)
     self->name = g_strdup("Initial name");
 }
 
+ExamplePerson * example_person_new (void)
+{
+    return g_object_new (EXAMPLE_TYPE_PERSON, 0);
+}
+
 const gchar * example_person_get_name (ExamplePerson * self)
 {
     return self->name;
@@ -29,9 +34,4 @@ void example_person_set_name (ExamplePerson * self, const gchar * name)
 
     g_free(self->name);
     self->name = g_strdup(name);
-}
-
-ExamplePerson * example_person_new (void)
-{
-    return g_object_new (EXAMPLE_TYPE_PERSON, 0);
 }

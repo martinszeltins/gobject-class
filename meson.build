@@ -1,11 +1,6 @@
 project('example', 'c')
 
-sources = [
-  'main.c',
-  'example-person.c',
-]
-
 executable('example',
-  sources,
+  ['main.c', 'example-person.c'],
   dependencies: [dependency('gobject-2.0')],
 )

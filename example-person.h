@@ -9,9 +9,9 @@ G_BEGIN_DECLS
 
 G_DECLARE_FINAL_TYPE (ExamplePerson, example_person, EXAMPLE, PERSON, GObject)
 
-const gchar * example_person_get_name (ExamplePerson * self);
-void          example_person_set_name (ExamplePerson * self, const gchar * name);
-GObject *     example_person_new (void);
+const gchar *   example_person_get_name (ExamplePerson * self);
+void            example_person_set_name (ExamplePerson * self, const gchar * name);
+ExamplePerson * example_person_new (void);
 
 G_END_DECLS
 

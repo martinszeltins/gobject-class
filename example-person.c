@@ -31,7 +31,7 @@ void example_person_set_name (ExamplePerson * self, const gchar * name)
     self->name = g_strdup(name);
 }
 
-GObject * example_person_new (void)
+ExamplePerson * example_person_new (void)
 {
     return g_object_new (EXAMPLE_TYPE_PERSON, 0);
 }

@@ -1,0 +1,4 @@
+# ninja log v5
+1	47	1667663682641013025	example@exe/main.c.o	4d63ef274aabdf3e
+1	51	1667663682645013034	example@exe/example-person.c.o	e754f2961d44a84a
+51	72	1667663682665013080	example	cf0e2f1c7148a386

@@ -1,0 +1,10 @@
+{
+    "cSpell.words": [
+        "gchar",
+        "Jony",
+        "klass"
+    ],
+    "files.associations": {
+        "example-person.h": "c"
+    }
+}
